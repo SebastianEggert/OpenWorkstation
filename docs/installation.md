@@ -1,36 +1,36 @@
 # Set-up of computational module
 
-The following instructions are written for a Raspberry Pi (RPi) single-board computer; however also Windows 7,10 and macOS 10.12+ have been successfully used with the presented workstation:
+The following instructions are written for a Raspberry Pi (RPi) single-board computer; however also Windows 8, 10 and macOS 10.12+ have been successfully used with the presented workstation:
 
-##### Python version
+#### Python version
 
 Make sure that you have at least Python 3.5 on your system.
 
-##### Update the system's package list
+#### Update the system's package list
 
 ```
 sudo apt-get update
 ```
 
-##### Upgrade all the installed packages
+#### Upgrade all the installed packages
 
 ```
 sudo apt-get dist-upgrade
 ```
 
-##### Restart the Raspberry Pi
+#### Restart the Raspberry Pi
 
 ```
 sudo reboot
 ```
 
-##### Install Python pip
+#### Install Python pip
 
 ```
 sudo apt-get install python3-pip
 ```
 
-##### Create a Python virtual environment
+#### Create a Python virtual environment
 
 It is recommended to setup an [Python Virtual Environment](https://realpython.com/python-virtual-environments-a-primer/) to store all packages and dependencies in one place. By doing this, your current Opentrons API is not impacted by any changes.
 
@@ -50,18 +50,18 @@ source OpenWorkstation/bin/activate
 ```
 
 
-##### Install OpenWorkstation API
+#### Install OpenWorkstation API
 ```
-pip install openworkstation
+pip3 install openworkstation
 ```
 
-##### Install opentrons API
+#### Install opentrons API
 For OT-API1
 ```
-pip install opentrons==2.5.2
+pip3 install opentrons==2.5.2
 ```
 
 For OT-API2
 ```
-pip install opentrons
+pip3 install opentrons
 ```
