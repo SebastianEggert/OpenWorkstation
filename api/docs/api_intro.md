@@ -1,4 +1,4 @@
-# opentrons API
+# OpenWorkstation API
 
 ## Quick Links
 * [Setting up opentrons API]
@@ -14,12 +14,12 @@ The opentrons API is a versatile framework that makes it incredibly easy to writ
 ```python
 p200.aspirate(100, plate['A1']).dispense(plate['A2'])
 ```
-Is exactly what you think it would do: 
+Is exactly what you think it would do:
 * Take P200 pipette
 * Aspirate 100 uL of liquid from well A1 on your plate
 * Dispense everything into well A2 on the same plate
 
-**Permissive**: everyone's process is different and we are not trying to impose our way of thinking on you. Instead, our API allows for different ways of expressing your protocol and adding fine details as you need them. 
+**Permissive**: everyone's process is different and we are not trying to impose our way of thinking on you. Instead, our API allows for different ways of expressing your protocol and adding fine details as you need them.
 For example:
 ```python
 p200.aspirate(100, plate[0]).dispense(plate[1])

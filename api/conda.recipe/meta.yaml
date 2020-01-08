@@ -1,14 +1,14 @@
 package:
-  name: opentrons
+  name: openworkstation
   version: {{ GIT_DESCRIBE_TAG }}
 
 build:
   # workaround as per https://github.com/conda/conda-build/issues/542
   string: py_{{ environ.get("GIT_DESCRIBE_NUMBER", 0) }}
 
-  # The conda build system allows you to specify “no architecture” when 
-  # building a package, thus making it compatible 
-  # with all platforms and architectures. 
+  # The conda build system allows you to specify “no architecture” when
+  # building a package, thus making it compatible
+  # with all platforms and architectures.
   # Noarch packages can be installed on any platform.
   noarch_python: True
 
@@ -54,7 +54,8 @@ test:
 
 
 about:
-  home: https://github.com/opentrons/opentrons-api
+  home: https://github.com/SebastianEggert/OpenWorkstation
   license: Apache 2.0
-  summary: The opentrons API is a simple framework designed to make writing automated biology lab protocols easy.
+  summary: The OpenWorkstation API is a simple Python framework designed to operate laboratory automation equi
+  pment.
   license_family: APACHE

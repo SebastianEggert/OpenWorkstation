@@ -3,18 +3,18 @@
 
  * [Overview](#overview)
  * [OpenWorkstation API](#api)
- * [Development Status](#development status)
- * [Getting Started](#getting started)
+ * [Development Status](#development_status)
+ * [Getting Started](#getting_started)
  * [Contributing/Building](#contributing)
 
  <a name="overview"></a>
  ## Overview
 
- We present a general Open Source Hardware (OSH) concept to develop scientific equipment. This concept enables the integration of available and newly developed OSH projects to a modular workstation. Building upon the [Opentrons API](https://github.com/Opentrons/opentrons),
+ We present a general Open Source Hardware (OSH) concept to develop scientific equipment. This general set up can be customized to fit diverse experimental requirements by adding different numbers and kinds of modules to execute the desired functionality. Within these modules, each hardware module as well as the configuration of the hardware modules can be specifically customized according to the experimental requirements. This ‘drag and drop’ approach enables a high degree of versatility, since the components as well as their configuration can be customized to fit the given requirements, including the option to remove components from the platform non-destructively without interfering with the functional operation of the other modules.
 
- Specifically, the OpenWorkstation concept provides these features:
+ Specifically, the OpenWorkstation concept provides the following features:
 
- * feature 1
+ * Modularity
  * feature 2
  * feature 3
  * feature 4
@@ -23,26 +23,38 @@
  <a name="api"></a>
  ## OpenWorkstation API
 
- Following [Opentrons](https://github.com/Opentrons/opentrons) approach, the OpenWorkstation is a simple Python framework designed to allow the operation of hardware modules. Basic commands are written in the [Gcode language](https://en.wikipedia.org/wiki/G-code) to enable custimzation and make it accessible to anyone with basic programming skills.
+ Following [Opentrons'](https://github.com/Opentrons/opentrons) approach, the OpenWorkstation API is a simple Python framework designed to allow the operation of hardware modules. Basic commands are written in the [Gcode language](https://en.wikipedia.org/wiki/G-code) to enable custimzation and make it accessible to anyone with basic programming skills.
 
- <a name="development status"></a>
+
+ #Installing Opentrons API
+
+ If you are familiar with python and comfortable running ``pip``, you can install OpenWorkstation API by running:
+
+ ```
+ pip install openworkstation
+ ```
+
+ <a name="development_status"></a>
  ## Development status
 
- The OpenWorkstation projects is an open source project. The concept was developed in the labs of the [ARC Industrial Transformation Training Centre in Additive Biomanufacturing](http://additivebiomanufacturing.org) to simplify the design and development of automated solutions. The OpenWorkstation project remains under active development and new features continue to be integrated.
+ The OpenWorkstation project is an open source project. The concept was developed in the labs of the [ARC Industrial Transformation Training Centre in Additive Biomanufacturing](http://additivebiomanufacturing.org) to simplify the design and development of automated solutions. The OpenWorkstation project remains under active development and new software as well as hardware features continue to be integrated.
 
  Please do no hesitate to [get in touch](mailto:s.eggert@qut.edu.au) to provide feedback and discuss potential applications.
 
-  <a name="getting started"></a>
+  <a name="getting_started"></a>
  ## Getting started
 
- The documentation is divided into three sections:
+ The documentation is divided into the following sections:
 
  * [Concept](docs/concept.md) describes what you will need, and the set-up of both hardware and software.
+ * [Hardware Module: Development](docs/installation.md) describes what you will need, and the set-up of both hardware and software.
+ * [Control Board Module: Smoothieboard](docs/installation.md) describes what you will need, and the set-up of both hardware and software.
+ * [Smoothieboard](docs/installation.md) describes what you will need, and the set-up of both hardware and software.
  * [Pre-requisites and installation](docs/installation.md) describes what you will need, and the set-up of both hardware and software.
  * [Deck setup and calibration](DeckSetupAndCalibration.md) describes the initial calibration procedures that are required to teach the robot where you will place your labware.
- * The [PlasmoTron tutorial](Tutorial.md) will explain how, once this initial setup is complete, you can use PlasmoTron to maintain malaria parasites.
+ * [Examples](examples.md) are provided and will explain how the OpenWorkstation was applied for our research.
 
  <a name="contributing"></a>
  ## Contributing
 
- We are looking for contributors.
+ We are looking for contributors!

@@ -4,13 +4,13 @@ import codecs
 import os
 from setuptools import setup, find_packages
 
-VERSION = 'v0.0.2'
+VERSION = 'v0.0.1'
 
 DISTNAME = 'OpenWorkstation'
 LICENSE = 'GNU GENERAL PUBLIC LICENSE'
 AUTHOR = "SebastianEggert"
 EMAIL = "s.eggert@qut.edu.au"
-URL = "https://github.com"
+URL = "https://github.com/SebastianEggert/OpenWorkstation"
 DOWNLOAD_URL = ''
 CLASSIFIERS = [
     'Development Status :: 5 - Production/Stable',
