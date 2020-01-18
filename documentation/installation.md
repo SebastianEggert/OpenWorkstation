@@ -56,12 +56,12 @@ pip3 install openworkstation
 ```
 
 #### Install opentrons API
-For OT-API1
+For OT-1 API
 ```
 pip3 install opentrons==2.5.2
 ```
 
-For OT-API2
+For OT-2 API
 ```
 pip3 install opentrons
 ```

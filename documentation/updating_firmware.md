@@ -2,7 +2,7 @@
 
 The motorcontroller inside all opentrons liquid handlers (called Smoothieboard or just Smoothie) will need it's firmware updated if you are planning to use the opentrons API and accompanying 2.0 app. The process is simple, and can be done from your computer in under a minute.
 
-To summarize, there are two files on your Smoothie that must be replaced; `FIRMWARE.CUR` and `config`. 
+To summarize, there are two files on your Smoothie that must be replaced; `FIRMWARE.CUR` and `config`.
 
 ##Step 1
 ###Download Files

@@ -7,6 +7,7 @@
  * [Getting Started](#getting_started)
  * [Contributing/Building](#contributing)
 
+
  <a name="overview"></a>
  ## Overview
 
@@ -19,14 +20,13 @@
  * feature 3
  * feature 4
 
+ <p align="center">
+ <img src="documentation/images/workstation_setup.tiff" width="700"/></p>
 
  <a name="api"></a>
  ## OpenWorkstation API
 
- Following [Opentrons'](https://github.com/Opentrons/opentrons) approach, the OpenWorkstation API is a simple Python framework designed to allow the operation of hardware modules. Basic commands are written in the [Gcode language](https://en.wikipedia.org/wiki/G-code) to enable custimzation and make it accessible to anyone with basic programming skills.
-
-
- #Installing Opentrons API
+ Building upon the [Opentrons API](https://github.com/Opentrons/opentrons), the OpenWorkstation API is a simple Python framework designed to allow the operation of hardware modules. Basic commands are written in the [Gcode language](https://en.wikipedia.org/wiki/G-code) to enable custimzation and make it accessible to anyone with basic programming skills.
 
  If you are familiar with python and comfortable running ``pip``, you can install OpenWorkstation API by running:
 
@@ -46,13 +46,13 @@
 
  The documentation is divided into the following sections:
 
- * [Concept](docs/concept.md) describes what you will need, and the set-up of both hardware and software.
- * [Hardware Module: Development](docs/installation.md) describes what you will need, and the set-up of both hardware and software.
- * [Control Board Module: Smoothieboard](docs/installation.md) describes what you will need, and the set-up of both hardware and software.
- * [Smoothieboard](docs/installation.md) describes what you will need, and the set-up of both hardware and software.
- * [Pre-requisites and installation](docs/installation.md) describes what you will need, and the set-up of both hardware and software.
- * [Deck setup and calibration](DeckSetupAndCalibration.md) describes the initial calibration procedures that are required to teach the robot where you will place your labware.
- * [Examples](examples.md) are provided and will explain how the OpenWorkstation was applied for our research.
+ * [Concept](documentation/concept.md) provides additional information on the concept.
+ * [Hardware files](hardware/README.md) are available for the present workstation and a part library is provided to accelerate the development process for new module.
+ * [Control Board Module: Smoothieboard](documentation/control-board-module.md) describes what you will need, and the set-up of both hardware and software.
+ * [Smoothieboard](documentation/installation.md) describes what you will need, and the set-up of both hardware and software.
+ * [Pre-requisites and installation](documentation/installation.md) describes what you will need, and the set-up of both hardware and software.
+ * [Examples](examples/examples.md) are provided and will explain how the OpenWorkstation was applied for our research.
+
 
  <a name="contributing"></a>
  ## Contributing
