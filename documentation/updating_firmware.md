@@ -1,48 +1,22 @@
-#Updating Firmware
+# Updating Firmware of Motorcontroller
 
-The motorcontroller inside all opentrons liquid handlers (called Smoothieboard or just Smoothie) will need it's firmware updated if you are planning to use the opentrons API and accompanying 2.0 app. The process is simple, and can be done from your computer in under a minute.
+The project is using smoothieboards to execute implemented functions. The configuration of the connected peripherals (e.g. stepper motor) is stored on the smoothieboard's SD card and has to be updated initially. When parts with a different specification (e.g. step size of a stepper motor) are used, the configuration files have to be modified to accommodate the physical changes. A list of most configuration options is provided by the Smoothie Project (http://smoothieware.org/configuration-options).
 
-To summarize, there are two files on your Smoothie that must be replaced; `FIRMWARE.CUR` and `config`.
+The configuration for the developed modules with the implemented parts can be found in the design files section.
 
-##Step 1
-###Download Files
+Building upon the Opentrons open source products (https://opentrons.com), this project is using Opentrons' firmware for the smoothieboard.
 
-[Download the zipped files from here](https://github.com/opentrons/smoothie-config/archive/1.2.0.zip). After downloading, unpack the zip file to view its contents.
+### Download Files
 
-##Step 2
-###Open the Smoothie's Drive
+[Download the zipped files from here](https://github.com/opentrons/smoothie-config/archive/1.2.0.zip) and unpack them.
 
-![Select Config File](img/Update-Firmware/driveIcon.png)
+### Update config file
+Open `config` file, update specifications for your developed module, such as step size for stepper motor), and save file.
 
-Power on and plug in your opentrons liquid handler, and make sure you do not have the app open. You will notice the Smoothieboard shows up on the computer as a Mass Storage Device, like an external hard drive or flash drive.
+### Update files on the smoothieboard's SD card
 
-![Select Config File](img/Update-Firmware/firmware_files.png)
+Open the SD card of your smoothieboard and copy the `FIRMWARE.CUR` (downloaded from Github) and `config` (updated in the previous step) files onto the SD card.
 
-Open the Smoothie's storage device to see it's `FIRMWARE.CUR` and `config` files. There might be other files there, but the two you need to worry about are `FIRMWARE.CUR` and `config`, because these are what we will be replacing.
+### Restart
 
-##Step 3
-###Copy Over `firmware.bin`
-
-From the folder you downloaded from GitHub, find the `firmware.bin` file.
-
-![Select Config File](img/Update-Firmware/SelectFirmwareBin.png)
-
-Drag `firmware.bin` to the Smoothie's drive. Your drive should now look like the following:
-
-![Select Config File](img/Update-Firmware/dragFirmwareBin.png)
-
-##Step 4
-###Select Your opentrons Model Config
-
-opentrons [come in three models](https://opentrons.com/robots), the Standard, Pro, and Hood. Each model requires a unique "config" file to go along with it. Find the config file that matches your robot (the folders are named after each model).
-
-![Select Config File](img/Update-Firmware/SelectConfigFile.png)
-
-Drag the `config` file from the correct folder onto the Smoothie's drive. You will be overwriting the old `config` file, so your computer may ask if you would like to proceed with replacing it.
-
-![Select Config File](img/Update-Firmware/replaceConfig.png)
-
-##Step 5
-###Restart
-
-Unmount the Smoothie's driver from your computer, and power cycle the robot. When the Smoothieboard powers on, it will read the `firmware.bin` file, then save it as `FIRMWARE.CUR`. It will then read the new `config` file, and your liquid handler now has updated firmware.
+Insert the SD card into the smoothieboard and restart the smoothieboard by connecting the USB or power supply. The board will read the `firmware.bin` file, then save it as `FIRMWARE.CUR`. Functionalities are executed based on the updated `config` file.

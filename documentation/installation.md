@@ -36,7 +36,7 @@ It is recommended to setup an [Python Virtual Environment](https://realpython.co
 
 Install the virtualenv tool
 ```
-pip install virtualenv
+pip3 install virtualenv
 ```
 
 Create a new virtual environment
@@ -56,6 +56,9 @@ pip3 install openworkstation
 ```
 
 #### Install opentrons API
+
+The opentrons API is only required, if the OT-1 or the OT-2 is used as the pipetting module.
+
 For OT-1 API
 ```
 pip3 install opentrons==2.5.2
@@ -64,4 +67,14 @@ pip3 install opentrons==2.5.2
 For OT-2 API
 ```
 pip3 install opentrons
+```
+
+The current version has been tested successfully with the OT-1 API and should be compatible with the OT-2 API.
+
+#### Test successful API installation
+
+```
+python3
+>>> import openworkstation
+>>> import opentrons
 ```
