@@ -1,4 +1,4 @@
- ## Hardware
+## Hardware
 
 The hardware section is divided into CAD files (SolidWorks) used to build the presented workstation (incl modules) and a parts library to accelerate the development process for new modules in the future.
 
