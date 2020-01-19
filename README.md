@@ -27,7 +27,7 @@ Specifically, the OpenWorkstation concept provides the following features:
 <a name="api"></a>
 ## OpenWorkstation API
 
-Building upon the [Opentrons API](https://github.com/Opentrons/opentrons), the OpenWorkstation API is a simple Python framework designed to allow the operation of hardware modules. Basic commands are written in the [Gcode language](https://en.wikipedia.org/wiki/G-code) to enable custimzation and make it accessible to anyone with basic programming skills.
+Building upon the [Opentrons API](https://github.com/Opentrons/opentrons), the OpenWorkstation API is a simple Python framework designed to allow the operation of hardware modules.
 
 If you are familiar with python and comfortable running ``pip``, you can install OpenWorkstation API by running:
 
@@ -49,7 +49,7 @@ The documentation is divided into the following sections:
 
  * [Concept](documentation/concept.md) for general information
  * [Pre-requisites and installation](documentation/installation.md) describes what you will need to install the OpenWorkstation API
- * [Programming](examples/examples.md) provides detailed instructions on writing scripts to operate the modules
+ * [Programming](examples/programming.md) provides detailed instructions on writing scripts to operate the modules
  * [Developed module files](hardware/README.md) are available for the present workstation
  * [CAD part library](hardware/README.md) is provided to accelerate the development process for new module
 

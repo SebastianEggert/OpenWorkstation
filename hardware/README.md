@@ -16,4 +16,4 @@ The following libraries are available to support users during the development of
  * [Module frames](moduleFrame)
  * [OpenBuilds parts](OpenBuilds)
 
-OpenBuilds provides additional support via their [SolidWorks part library]  (https://openbuilds.com/projectresources/solidworks-2014-parts-library.160/) and the uploaded models on [GrabCAD] (https://grabcad.com/openbuilds-1/models).
+OpenBuilds provides additional support via their [SolidWorks part library](https://openbuilds.com/projectresources/solidworks-2014-parts-library.160/) and the uploaded models on [GrabCAD](https://grabcad.com/openbuilds-1/models).
