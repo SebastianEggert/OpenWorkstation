@@ -24,7 +24,7 @@ Specifically, the OpenWorkstation concept provides the following features:
 
 
  <p align="center">
- <img src="documentation/images/workstation_setup.tiff" width="700"/></p>
+ <img src="documentation/images/workstation_setup_v0.1.tif" width="700"/></p>
 
 
 
