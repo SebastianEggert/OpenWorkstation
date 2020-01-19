@@ -21,8 +21,12 @@ Specifically, the OpenWorkstation concept provides the following features:
  * Hardware and software files are freely accessible
 
 
+
+
  <p align="center">
  <img src="documentation/images/workstation_setup.tiff" width="700"/></p>
+
+
 
 <a name="api"></a>
 ## OpenWorkstation API
