@@ -57,26 +57,26 @@ Basic commands are written in the [Gcode language](https://en.wikipedia.org/wiki
 
 Switch to absolute coordinates
 ```
-robot2._driver.send_command(G90)
+robot2._driver.send_command('G90')
 ```
 Switch to relative coordinates
 ```
-robot2._driver.send_command(G91)
+robot2._driver.send_command('G91')
 ```
 
 ##### Define movement speed
 
 Define speed in mm/min
 ```
-robot2._driver.send_command(G0 F1000)
+robot2._driver.send_command('G0 F1000')
 ```
 
 ##### Define movement steps
 
 
 ```
-robot2._driver.send_command(G0 X5 Y100 A88)
-robot2._driver.send_command(G0 X0 Y150 A33)
+robot2._driver.send_command('G0 X5 Y100 A88')
+robot2._driver.send_command('G0 X0 Y150 A33')
 ```
 
 
