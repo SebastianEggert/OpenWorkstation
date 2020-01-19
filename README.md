@@ -5,7 +5,7 @@
  * [OpenWorkstation API](#api)
  * [Development Status](#development_status)
  * [Getting Started](#getting_started)
- * [Contributing/Building](#contributing)
+ * [Contributing](#contributing)
 
 
  <a name="overview"></a>
@@ -56,6 +56,7 @@ The documentation is divided into the following sections:
  * [Programming](examples/programming.md) provides detailed instructions on writing scripts to operate the modules
  * [Developed module files](hardware/README.md) are available for the present workstation
  * [CAD part library](hardware/README.md) is provided to accelerate the development process for new module
+ * [Development plan](documentation/dev-plan.md) outlines future work packages
 
 
 <a name="contributing"></a>
