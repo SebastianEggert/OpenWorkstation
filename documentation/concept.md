@@ -23,4 +23,4 @@ As monitoring capability, we understand the measurement of process variables eit
 
 
 <p align="center">
-<img src="images/setup_case-study" width="700"/></p>
+<img src="images/setup_case-study.tif" width="700"/></p>
