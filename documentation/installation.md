@@ -1,4 +1,4 @@
-# Set-up of computational module
+# Pre-requisites and installation
 
 The following instructions are written for a Raspberry Pi (RPi) single-board computer; however also Windows 8, 10 and macOS 10.12+ have been successfully used with the presented workstation:
 

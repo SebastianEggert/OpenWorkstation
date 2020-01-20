@@ -53,7 +53,7 @@ The documentation is divided into the following sections:
 
  * [Concept](documentation/concept.md) for general information
  * [Pre-requisites and installation](documentation/installation.md) describes what you will need to install the OpenWorkstation API
- * [Programming](examples/programming.md) provides detailed instructions on writing scripts to operate the modules
+ * [Programming](documentation/programming.md) provides detailed instructions on writing scripts to operate the modules
  * [Developed module files](hardware/README.md) are available for the present workstation
  * [CAD part library](hardware/README.md) is provided to accelerate the development process for new module
  * [Development plan](documentation/dev_plan.md) outlines future work packages

@@ -9,10 +9,11 @@ All hardware files are available for the presented workstation:
  * [Crosslinker module](moduleCrosslinker)
  * [Storage module](moduleStorage)
  * [Transport module](moduleTransport)
+ * [Base frame](base-frame)
 
 The following libraries are available to support users during the development of new module:
 
- * [Aluminium profiles](profiles)
+ * [Aluminium profiles](aluminium-profiles)
  * [Module frames](moduleFrame)
  * [OpenBuilds parts](OpenBuilds)
 
