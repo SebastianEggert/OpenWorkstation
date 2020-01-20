@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/222942681.svg)](https://zenodo.org/badge/latestdoi/222942681)
+
 # OpenWorkstation
  An open source and modular workstation concept for life science automation.
 
