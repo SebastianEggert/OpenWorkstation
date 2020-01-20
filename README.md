@@ -17,8 +17,8 @@ We present a general Open Source Hardware concept to develop scientific equipmen
 
 Specifically, the OpenWorkstation concept provides the following features:
 
- * Modularity to combine different open source projects
  * Simple and fast development of customized hardware modules
+ * Modularity to combine different open source projects
  * Available API to operate modules
  * Hardware and software files are freely accessible
 
