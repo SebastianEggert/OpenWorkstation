@@ -3,7 +3,7 @@
 The OpenWorkstation project provides an open source and modular concept to enable life science automation. The OpenWorkstation API and the assembly line inspired approach is built on top of the [Opentrons](https://opentrons.com/) platform.
 
 <p align="center">
-<img src="images/workstation_setup_v0.1.tiff" width="800"/></p>
+<img src="images/workstation_setup_v0.1.tif" width="700"/></p>
 
 ## Getting started
 
