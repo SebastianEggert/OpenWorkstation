@@ -8,9 +8,9 @@ This repository contains an overview of the project, the source code for the Ope
 
  * [Overview](#overview)
  * [OpenWorkstation API](#api)
- * [Development Status](#development_status)
- * [Getting Started](#getting_started)
  * [Contributing](#contributing)
+ * [Getting Started](#getting_started)
+
 
 
  <a name="overview"></a>
@@ -44,12 +44,22 @@ If you are familiar with python and comfortable running ``pip``, you can install
 pip install openworkstation
 ```
 
-<a name="development_status"></a>
-## Development status
+<a name="contributing"></a>
+## Contributing
 
-The OpenWorkstation project is an open-source project. The concept was developed to simplify the design and development of automated solutions for experimental workflows. The OpenWorkstation project remains under active development and new software as well as hardware features continue to be integrated.
+The OpenWorkstation project is an active open-source project. I, Sebastian (https://twitter.com/se_eggert) started with this idea during my PhD project at the Queensland University of Technology (Australia) and will continue with it as a Postdoctoral Researcher at the Chair of Medical Materials and Implants (https://www.mw.tum.de/mmi/home/) at the Technical University of Munich (Germany). The concept was initially developed to manufacture hydrogels in an automated and reproducible fashion. Given the open-source character and the modularity, I believe that the OpenWorkstation could become an enabling tool for life science research, empowering scientists to build, share, and replicate the experimental setups.
 
-Please do no hesitate to [get in touch](mailto:sebastian.eggert@tum.de) to provide feedback and discuss potential applications.
+This repository is always a work in progress and everyone is encouraged to help us build something that is useful to the many. Next, I am planning to set up a contributing guidelines and a development plan.
+
+We are looking for contributors!
+
+At the moment, support for the following areas would be appreciated very much:
+- checking repository and documentation
+- software engineers for the API and interface
+- mechanical engineers to develop new modules
+- early adopters to test the interface, API, single modules or functionality of entire platform
+
+Please do no hesitate to [get in touch](mailto:sebastian.eggert@tum.de) with me to provide feedback, discuss potential applications or just to say hello.
 
 <a name="getting_started"></a>
 ## Getting started
@@ -64,9 +74,6 @@ The documentation is divided into the following sections:
  * [Development plan](documentation/dev_plan.md) outlines future work packages
 
 
-<a name="contributing"></a>
-## Contributing
 
-We are looking for contributors!
 
 [Get in touch](mailto:sebastian.eggert@tum.de)
