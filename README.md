@@ -1,7 +1,10 @@
 [![DOI](https://zenodo.org/badge/222942681.svg)](https://zenodo.org/badge/latestdoi/222942681)
 
 # OpenWorkstation
- An open source and modular workstation concept for life science automation.
+
+OpenWorkstation democratizes access to laboratory automation by providing an open-source and modular framework to design and build your own technology.
+
+This repository contains an overview of the project, the source code for the OpenWorkstation API and addition tips on getting started. It's released and the projects remains under active development. Have fun exploring, hacking and building upon the project!
 
  * [Overview](#overview)
  * [OpenWorkstation API](#api)
@@ -44,7 +47,7 @@ pip install openworkstation
 <a name="development_status"></a>
 ## Development status
 
-The OpenWorkstation project is an open source project. The concept was developed in the labs of the [ARC Industrial Transformation Training Centre in Additive Biomanufacturing](http://additivebiomanufacturing.org) to simplify the design and development of automated solutions. The OpenWorkstation project remains under active development and new software as well as hardware features continue to be integrated.
+The OpenWorkstation project is an open-source project. The concept was developed to simplify the design and development of automated solutions for experimental workflows. The OpenWorkstation project remains under active development and new software as well as hardware features continue to be integrated.
 
 Please do no hesitate to [get in touch](mailto:sebastian.eggert@tum.de) to provide feedback and discuss potential applications.
 
@@ -56,8 +59,8 @@ The documentation is divided into the following sections:
  * [Concept](documentation/concept.md) for general information
  * [Pre-requisites and installation](documentation/installation.md) describes what you will need to install the OpenWorkstation API
  * [Programming](documentation/programming.md) provides detailed instructions on writing scripts to operate the modules
- * [Developed module files](hardware/README.md) are available for the present workstation
- * [CAD part library](hardware/README.md) is provided to accelerate the development process for new module
+ * [Developed module files](https://github.com/SebastianEggert/OpenWorkstation_hardware) are available for the present workstation
+ * [CAD part library](https://github.com/SebastianEggert/OpenWorkstation_hardware) is provided to accelerate the development process for new module
  * [Development plan](documentation/dev_plan.md) outlines future work packages
 
 
