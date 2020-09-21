@@ -34,6 +34,8 @@ sudo apt-get install python3-pip
 
 It is recommended to setup an [Python Virtual Environment](https://realpython.com/python-virtual-environments-a-primer/) to store all packages and dependencies in one place. By doing this, your current Opentrons API is not impacted by any changes.
 
+Please note that the following commands are for Linux and different commands have to be used for other operating systems, especially for Windows. Further information can be found [here](https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/).
+
 Install the virtualenv tool
 ```
 pip3 install virtualenv
