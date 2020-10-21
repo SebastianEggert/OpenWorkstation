@@ -1,5 +1,5 @@
 [![DOI](https://zenodo.org/badge/222942681.svg)](https://zenodo.org/badge/latestdoi/222942681)
-[![PyPi](https://img.shields.io/pypi/v/openworkstation.svg)](https://pypi.org/project/OpenWorkstation/)
+[![PyPI version](https://badge.fury.io/py/openworkstation.svg)](https://badge.fury.io/py/openworkstation)
 [![PyPIDownloads](https://pepy.tech/badge/openworkstation.svg)](https://pepy.tech/project/openworkstation)
 
 
