@@ -1,5 +1,5 @@
 [![DOI](https://zenodo.org/badge/222942681.svg)](https://zenodo.org/badge/latestdoi/222942681)
-
+|PyPI| |PyPIDownloads|
 
 # OpenWorkstation
 
@@ -81,3 +81,9 @@ The documentation is divided into the following sections:
 If the OpenWorkstation concept is useful in your research, please consider citing our [publication](https://www.sciencedirect.com/science/article/pii/S2468067220300614):
 
 Eggert S, Mieszczanek P, Meinert C, Hutmacher DW, OpenWorkstation: A modular open-source technology for automated in vitro workflows, HardwareX. e00152 (2020). In Press.
+
+.. |PyPI| image:: https://img.shields.io/pypi/v/openworkstation.svg
+   :target: https://pypi.org/project/OpenWorkstation/
+
+  .. |PyPIDownloads| image:: https://pepy.tech/badge/openworkstation
+    :target: https://pepy.tech/project/openworkstation
