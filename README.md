@@ -10,6 +10,7 @@ This repository contains an overview of the project, the source code for the Ope
  * [OpenWorkstation API](#api)
  * [Contributing](#contributing)
  * [Getting Started](#getting_started)
+ * [Reference](#reference)
 
 
 
@@ -72,3 +73,10 @@ The documentation is divided into the following sections:
  * [Developed module files](https://github.com/SebastianEggert/OpenWorkstation_hardware) are available for the present workstation
  * [CAD part library](https://github.com/SebastianEggert/OpenWorkstation_hardware) is provided to accelerate the development process for new module
  * [Development plan](documentation/dev_plan.md) outlines future work packages
+
+ <a name="reference"></a>
+## Reference
+
+If the OpenWorkstation concept is useful in your research, please consider citing our [publication](https://www.sciencedirect.com/science/article/pii/S2468067220300614):
+
+Eggert S, Mieszczanek P, Meinert C, Hutmacher DW, OpenWorkstation: A modular open-source technology for automated in vitro workflows, HardwareX. e00152 (2020). In Press.
