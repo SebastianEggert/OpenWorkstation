@@ -3,7 +3,7 @@
 [![Downloads](https://pepy.tech/badge/openworkstation)](https://pepy.tech/project/openworkstation)
 
 
-[![PyPi](https://img.shields.io/pypi/v/openworkstation.svg?style=for-the-badge)](https://pypi.org/project/openworkstation/)
+[![PyPi](https://img.shields.io/pypi/v/openworkstation.svg)](https://pypi.org/project/openworkstation/)
 
 ![PyPI](https://img.shields.io/pypi/v/openworkstation)
 
