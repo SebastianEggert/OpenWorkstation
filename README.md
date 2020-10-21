@@ -5,6 +5,8 @@
 
 [![PyPi](https://img.shields.io/pypi/v/openworkstation.svg?style=for-the-badge)](https://pypi.org/project/openworkstation/)
 
+![PyPI](https://img.shields.io/pypi/v/openworkstation)
+
 
 # OpenWorkstation
 
