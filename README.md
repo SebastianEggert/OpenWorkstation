@@ -1,4 +1,5 @@
-[![DOI](https://doi.org/10.1016/j.ohx.2020.e00152.svg)](https://doi.org/10.1016/j.ohx.2020.e00152)
+[![DOI](https://hardwarex.org/badge/2020.e00152.svg)](https://doi.org/10.1016/j.ohx.2020.e00152)
+
 
 # OpenWorkstation
 
