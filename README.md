@@ -1,6 +1,6 @@
 [![DOI:10.1016/j.ohx.2020.e00152](https://zenodo.org/badge/DOI/10.1016/j.ohx.2020.e00152.svg)](https://doi.org/10.1016/j.ohx.2020.e00152)
 [![PyPI version fury.io](https://badge.fury.io/py/openworkstation.svg)](https://badge.fury.io/pypi/openworkstation/)
-[![Downloads](https://pepy.tech/badge/openworkstation)](https://pepy.tech/project/openworkstation)
+[![downloads total](https://pepy.tech/badge/openworkstation)](https://pepy.tech/project/openworkstation)
 
 
 
