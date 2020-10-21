@@ -1,4 +1,5 @@
 [![DOI](https://zenodo.org/badge/222942681.svg)](https://zenodo.org/badge/latestdoi/222942681)
+[![DOI:10.1016/j.ohx.2020.e00152](https://zenodo.org/badge/DOI/10.1016/j.ohx.2020.e00152.svg)](https://doi.org/10.1016/j.ohx.2020.e00152)
 [![PyPI version fury.io](https://badge.fury.io/py/openworkstation.svg)](https://badge.fury.io/py/openworkstation)
 [![Downloads](https://pepy.tech/badge/openworkstation)](https://pepy.tech/project/openworkstation)
 
@@ -82,4 +83,4 @@ The documentation is divided into the following sections:
 
 If the OpenWorkstation concept is useful in your research, please consider citing our [publication](https://www.sciencedirect.com/science/article/pii/S2468067220300614):
 
-Eggert S, Mieszczanek P, Meinert C, Hutmacher DW, OpenWorkstation: A modular open-source technology for automated in vitro workflows, HardwareX. e00152 (2020). In Press.
+Eggert S, Mieszczanek P, Meinert C, Hutmacher DW, OpenWorkstation: A modular open-source technology for automated in vitro workflows, HardwareX. e00152 (2020). In Press. DOI: [10.1016/j.ohx.2020.e00152](https://doi.org/10.1016/j.ohx.2020.e00152)
